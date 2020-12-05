@@ -6,9 +6,15 @@ const Navbar = () => {
        <>
         <Nav>
             <NavbarContainer>
-                <NavLogo to='/'>
-                    dollar
-                </NavLogo>
+                <NavLogo to='/'>dollar</NavLogo>
+                <MobileIcon>
+                    <FaBars />
+                </MobileIcon>
+                <NavMenu>
+                    <NavItem>
+                        <Navlinks to="about">About</Navlinks>
+                    </NavItem>
+                </NavMenu>
             </NavbarContainer>
         </Nav>
        </>
